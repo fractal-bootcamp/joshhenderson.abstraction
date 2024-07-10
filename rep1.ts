@@ -217,6 +217,7 @@ console.log(filterFunction(isEven, [1, 2, 3, 4, 5, 6]));
 
 const sumReducer = ()
 
+
 // 12. Use your filter and reduce functions to find the sum of all even numbers in the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
 
 // 13. Create a memoize function that takes a function as an argument and returns a new function. 

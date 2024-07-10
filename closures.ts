@@ -25,7 +25,7 @@ function curry(originalFunction: (x: number, y: number) => number) {
 const addd = (x: number, y: number) => x + y; // function that we pass into the first curry function 
 
 
-const curriedAdd = curry(add);
+const curriedAdd = curry(addd);
 // curriedAdd now equals what curry(add) evaluates to or returns,  which is:
 
 // function (first: number) {
